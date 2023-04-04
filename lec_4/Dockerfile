@@ -1,0 +1,8 @@
+# 베이스 이미지
+FROM mariadb
+
+# 환경 변수 -> 디비 -> 계정, 루트 비번 등 지정해야 한다.
+ENV MARIADB_USER "ai"
+ENV MARIADB_PASSWORD 1234
+ENV MARIADB_USER="ai1" MARIADB_PASSWORD='12345'
+ENV MARIADB_ROOT_PASSWORD 1234

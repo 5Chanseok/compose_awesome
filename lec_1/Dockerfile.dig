@@ -1,0 +1,2 @@
+# 베이스 이미지
+FROM ubuntu@sha256:f4270eef6cf86135dab38e64fe05708ff6983bff7282e2ba5c5d564603622bfe
