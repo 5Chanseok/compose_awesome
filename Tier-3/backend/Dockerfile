@@ -49,7 +49,7 @@ CMD ["run"]
 # builder를 기반으로 추가 기술
 # 리눅스 관련 작업
 # 패키지 업데이트, 계정 추가, 권한 부여 등
-# FROM builder AS flask-env
+FROM builder AS flask-env
 
 # OS 상 작업 추가(실습상 추가)
 # 여러 줄 명령 수행을 위해 EOF 옵션 사용
